@@ -2,9 +2,15 @@ import { Link } from "react-router-dom"
 
 export const About = () =>{
     return (
-        <button>
+        <div>
+            <div>
+
             About page 
-            <Link to="/"></Link>
-        </button>
+            zzz
+            </div>
+            <button>
+                form
+            </button>
+        </div>
     )
 }
