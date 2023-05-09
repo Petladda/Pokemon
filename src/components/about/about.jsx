@@ -8,9 +8,7 @@ export const About = () =>{
             About page 
             zzz
             </div>
-            <button>
-                form
-            </button>
+            
         </div>
     )
 }
