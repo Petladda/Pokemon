@@ -7,10 +7,10 @@ import { About } from './components/about'
 import { Navbar } from './components/navbar/navbar'
 import { Form } from './components/form'
 import { Cartapi } from './components/cartapi'
+import { Modal } from './components/modal/modal'
 
 function App() {
 
-  
   
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
      <Route path='/about' element={<About/>}>
      </Route>
       <Route path='/form' element={<Form/>} />
-      <Route path='/cartapi' element={<Cartapi/>}/>
+      <Route path='/cartapi' element={<Cartapi  />}/>
     </Routes>
     
     
